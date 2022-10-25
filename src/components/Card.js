@@ -8,7 +8,7 @@ const Card = (props) => {
       <div className='information'>
         <div className="map">
           <p className='country'><FaMapPin/>{props.item.location}</p>
-          <a href={props.item.googleMapsUrl} className='g-map'>Visit on Google Maps</a>
+          <a href={props.item.googleMapsUrl} className='g-map' target='_blank'>Visit on Google Maps</a>
         </div>
         <h1 className='title'>{props.item.title}</h1>
         <p className='dates'>{props.item.startDate} - {props.item.endDate}</p>
