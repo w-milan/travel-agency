@@ -12,6 +12,8 @@ body {
 section {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .navbar {
@@ -31,6 +33,7 @@ section {
   display: flex;
   align-items: center;
   margin: 30px;
+  width: 500px;
 }
 
 .card-item img{
