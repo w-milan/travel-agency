@@ -1,16 +1,19 @@
 import React from 'react'
+import { FaMapPin } from 'react-icons/fa';
 
 const Card = (props) => {
   return (
-    <div>
-      <div>
-        <img src={props.item.imageUrl} alt="" />
-        <p>{props.item.location}</p>
-        <a href={props.item.googleMapsUrl}>Visit on Google Maps</a>
+    <div className='card-item'>
+      <img src={props.item.imageUrl} alt="" />
+      <div className='information'>
+        <div className="map">
+          <p className='country'><FaMapPin/>{props.item.location}</p>
+          <a href={props.item.googleMapsUrl} className='g-map'>Visit on Google Maps</a>
+        </div>
+        <h1 className='title'>{props.item.title}</h1>
+        <p className='dates'>{props.item.startDate} - {props.item.endDate}</p>
+        <p className='description'>{props.item.description}</p>
       </div>
-      <h1>{props.item.title}</h1>
-      <p><strong>{props.item.startDate} - {props.item.endDate}</strong></p>
-      <p>{props.item.description}</p>
     </div>
   )
 }

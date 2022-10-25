@@ -21,3 +21,62 @@ body {
 .navbar h1 {
   margin-left: 10px;
 }
+
+.card-item {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.card-item img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card-item .map {
+  display: flex;
+  align-items: center;
+}
+
+.card-item .map svg {
+  color:#F55A5A
+}
+
+.card-item .map .country {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  text-transform: uppercase;
+}
+
+.card-item .map .g-map {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.card-item .title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.card-item .dates {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.card-item .description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2B283A;
+}
