@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -9,6 +10,7 @@ export default [
         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
+        id: 2,
         title: "Sidney Opera House",
         location: "Australia",
         googleMapsUrl: "https://goo.gl/maps/U46R7t4gxiJTYNZu9",
@@ -18,6 +20,7 @@ export default [
         imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
     },
     {
+        id: 3,
         title: "Geirangerfjord",
         location: "Norway",
         googleMapsUrl: "https://goo.gl/maps/Xr9tH8f6DX9KMmhn8",
@@ -27,6 +30,7 @@ export default [
         imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
     },
     {
+        id: 4,
         title: "Uvac",
         location: "Serbia",
         googleMapsUrl: "https://goo.gl/maps/WMi9SivePZL7C8Wb9",
@@ -36,6 +40,7 @@ export default [
         imageUrl: "https://source.unsplash.com/0Zul3ftxUII"
     },
     {
+        id: 5,
         title: "Saint Basil's Cathedral",
         location: "Rusia",
         googleMapsUrl: "https://goo.gl/maps/jEAnabr6rA1gqevVA",
@@ -45,6 +50,7 @@ export default [
         imageUrl: "https://source.unsplash.com/xSQ3VmvqUN4"
     },
     {
+        id: 6,
         title: "The Great Pyramid of Giza",
         location: "Egypt",
         googleMapsUrl: "https://goo.gl/maps/6nFibYBM1xAJRF466",
