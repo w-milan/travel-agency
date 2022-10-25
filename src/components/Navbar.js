@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { FaStudiovinari } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <div>
+    <nav className='navbar'>
+      <FaStudiovinari />
       <h1>Travel Agency</h1>
-    </div>
+    </nav>
   )
 }
 
